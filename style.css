@@ -1,0 +1,215 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nova Square', sans-serif;
+  color: darkred;
+}
+
+  * { 
+ font-family: 'Rajdhani', sans-serif;
+ font-weight: lighter;
+ }
+
+ h3 {
+  font-size: 15px;
+ }
+
+h1 {
+  font-weight: 500;
+  font-size: 70px;
+  letter-spacing: 30px;
+}
+
+  main {
+    background-color: rgba(236,236,236,255);
+} 
+
+
+  .img-size {
+    width: 180px;
+  }
+ 
+  header {
+    height: 100vh;
+    background-image: url(./media-RED/mountains2.png),  linear-gradient(white, rgba(255, 255, 255, 0)), url(./media-RED/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+  }  
+
+  .section-01 {
+    height: 200px;
+  }
+
+  .quote {
+    font-size: 25px;
+    font-weight: 100;
+    color: darkred;
+  }
+
+  .article-2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+ .line {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 4px solid darkred;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid darkred;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -12px;
+  background-color: white;
+}
+
+.custom-icons {
+  color: darkred;
+  font-size: 28px;
+}
+
+.mrgn {
+  margin: 10vh;
+}
+
+.custom-left {
+  display: inline-block;
+  text-align: left;
+}
+
+.custom-right{
+  display: inline-block;
+  text-align: right;
+}
+
+.heig-50 {
+  height: 50vh;
+}
+
+.heig-25 {
+  height: 100vh;
+}
+
+.custom-btn {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  background-color: darkred;
+ 
+}
+
+.mountain {
+  background-image: url(./media-RED/trees2.png);
+}
+
+/* timelien */
+.tl-line {
+   border-left: 3px solid darkred;
+}
+
+.tl-circle {
+  width: 16px;
+  height: 16px;
+  border: 3px solid darkred;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  right: 21px;
+}
+
+.mrgn-timeline {
+  margin: 50px 0px;
+}
+
+.bg-mountain {
+  background-image:url(./media-RED/trees.png);
+  background-repeat: no-repeat;
+}
+
+.high {
+  height: 100%;
+}
+.wdth {
+  width: 60%;
+  height: 400px;
+}
+
+.cust-bg { 
+  display: flex;
+  flex-direction: row;
+  justify-content:end;
+  position: relative;
+  bottom: 400px;
+}
+
+/* our team */
+.custom-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-ics {
+  width: 60%;
+  display: flex;
+  justify-content:space-evenly ;
+}
+
+.team-icons {
+  color: darkred;
+  font-size: 20px;
+}
+
+.circle-tm {
+  border: 2px solid darkred;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* our benefit */
+.benefit-img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid darkred;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.benefit-psn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* footer */
+.bg-footer {
+  background-color: darkred;
+  width: 100%;
+  height: 40vh;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+ 
+  
